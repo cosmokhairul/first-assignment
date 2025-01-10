@@ -39,20 +39,24 @@
 
 .banner-title{
     font-size: 24px;
+    margin: 0;
 }
 
 .banner-heading{
+    margin-top: 16px;
+    margin-bottom: 24px;
     font-size: 56px;
 }
 
 .banner-btn{
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 17px 34px;
     background-color: #006A50;
     color: #FFFFFF;
+    font-family: "Fira Sans", serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .banner-btn:hover{
@@ -60,12 +64,22 @@
     cursor: pointer;
 }
 
+.vision-section{
+    margin-top: 80px;
+}
+
+.vision-section>p{
+    margin-top: 24px;
+    margin-bottom: 0;
+}
 
 .vision-card-section{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .vision-card1{
@@ -134,12 +148,22 @@
     color: rgba(14, 14, 14, 0.8);
 }
 
+.recent-news-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.recent-news-paragraph{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
 
 .recent-news-card{
     /* height: 402px; */
     background-color: white;
     border-radius: 24px;
     padding: 48px;
+    margin-bottom: 24px;
     
 }
 
@@ -217,3 +241,54 @@ cursor: pointer;
 .input-donation{
     text-align: center;
 }
+
+
+.newsletter-section{
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-newsletter{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.input-newsletter{
+    /* width: 100%; */
+    margin: 0;
+    font-size: 16px;
+    padding: 18px 40px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.donate-now-btn{
+    margin: 0;
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #006A50;
+    border: none;
+}
+
+.quote-section{
+    padding: 24px 48px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
+
