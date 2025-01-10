@@ -173,3 +173,47 @@
     align-items: start;
     justify-content: center;
 }
+
+.donation-title, .donation-paragraph{
+    text-align: center;
+}
+
+.donation-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.donate-card1, .donate-card2, .donate-card3, .donate-card4{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: white;
+    padding: 40px 40px;
+    border-radius: 16px;
+}
+
+.donate-card1, .donate-card2, .donate-card3, .donate-card4, h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.donate-card1:hover, .donate-card2:hover, .donate-card3:hover, .donate-card4:hover{
+background-color: #C6E4D6;
+cursor: pointer;
+}
+
+.input-other-amount{
+    width: 100%;
+    font-size: 24px;
+    padding: 20px 40px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.input-donation{
+    text-align: center;
+}
