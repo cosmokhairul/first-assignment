@@ -1,0 +1,48 @@
+
+
+
+/* Shared Styles */
+
+.all-section-margin{
+    margin: 0px 160px;
+    }
+
+.fira-sans-font {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+.banner{
+    height: 560px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.banner-title{
+    font-size: 24px;
+}
+
+.banner-heading{
+    font-size: 56px;
+}
+
+.banner-btn{
+    border: none;
+    border-radius: 4px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.banner-btn:hover{
+    background-color: #0a4134;
+    cursor: pointer;
+}
