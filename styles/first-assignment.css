@@ -5,6 +5,7 @@
 
 .all-section-margin{
     margin: 0px 160px;
+    background-color: #F5F5F5;
     }
 
 .fira-sans-font {
@@ -13,6 +14,17 @@
     font-style: normal;
   }
 
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.section-paragraph{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.7);
+}
 
 
 .banner{
@@ -45,4 +57,78 @@
 .banner-btn:hover{
     background-color: #0a4134;
     cursor: pointer;
+}
+
+
+.vision-card-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.vision-card1{
+    /* border: 1px solid red; */
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-card2{
+    /* border: 1px solid red; */
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-card3{
+    /* border: 1px solid red; */
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-card1-btn{
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight:bold;
+    padding: 11px 20px;
+    border: none;
+}
+.vision-card2-btn{
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #09A15C;
+    font-size: 16px;
+    font-weight:bold;
+    padding: 11px 20px;
+    border: none;
+}
+.vision-card3-btn{
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    font-size: 16px;
+    font-weight:bold;
+    padding: 11px 20px;
+    border: none;
+}
+
+.vision-card1-btn:hover{
+    background-color: #2974f5;
+    cursor: pointer;
+}
+.vision-card2-btn:hover{
+    background-color: #066b3e;
+    cursor: pointer;
+}
+.vision-card3-btn:hover{
+    background-color: #aa7701;
+    cursor: pointer;
+}
+
+.vision-card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
 }
