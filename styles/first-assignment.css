@@ -1,6 +1,4 @@
 
-
-
 /* Shared Styles */
 
 .all-section-margin{
@@ -27,6 +25,7 @@
 }
 
 
+/* Banner Design */
 .banner{
     height: 560px;
     background-color: #C6E4D6;
@@ -35,6 +34,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 60px;
+    margin-top: 20px;
 }
 
 .banner-title{
@@ -64,6 +64,8 @@
     cursor: pointer;
 }
 
+
+/* The Vision of Future Design */
 .vision-section{
     margin-top: 80px;
 }
@@ -99,6 +101,18 @@
     background-color: #F7EBCF;
     border-radius: 16px;
     padding: 32px;
+}
+
+.vision-card1:hover{
+    background-color: rgba(84, 143, 245, 0.500);
+}
+
+.vision-card2:hover{
+    background-color: #76cfa6;
+}
+
+.vision-card3:hover{
+    background-color: #fce0a0;
 }
 
 .vision-card-section h3{
@@ -161,6 +175,8 @@
     color: rgba(14, 14, 14, 0.8);
 }
 
+
+/* Recent News Design */
 .recent-news-section{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -177,7 +193,11 @@
     border-radius: 24px;
     padding: 48px;
     margin-bottom: 24px;
-    
+
+}
+
+.recent-news-card:hover{
+    background-color: #d4f5e5;
 }
 
 .recent-card-img{
@@ -214,6 +234,23 @@
     justify-content: center;
 }
 
+.recent-news-btn{
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.recent-news-btn:hover{
+    background-color: #0a4134;
+    cursor: pointer;
+}
+
+
 .recent-news-card-details p{
     margin: 0px;
 }
@@ -222,6 +259,8 @@
     margin-top: 32px;
 }
 
+
+/* Donate Now Section Design */
 .donation-title, .donation-paragraph{
     text-align: center;
 }
@@ -260,23 +299,6 @@ background-color: #C6E4D6;
 cursor: pointer;
 }
 
-/* .input-donation{
-    text-align: center;
-    margin-left: 124px;
-    margin-right: 124px;
-}
-
-.input-other-amount{
-    width: 100%;
-    font-size: 24px;
-    padding: 20px 40px;
-    text-align: center;
-    color: rgba(14, 14, 14, 0.3);
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    margin-top: 32px;
-    margin-bottom: 32px;
-} */
-
 .donation-input{
     display: flex;
     flex-direction: column;
@@ -299,6 +321,7 @@ cursor: pointer;
     margin-bottom: 32px;
 }
 
+/* Subscribe Newsletter Section Design */
 .newsletter-section{
     background-color: #C6E4D6;
     padding: 80px 265px;
@@ -359,6 +382,8 @@ cursor: pointer;
     margin: 0px;
 }
 
+
+/* Quote Section Design */
 .quote-section{
     padding: 24px 48px;
     border: 1px solid rgba(14, 14, 14, 0.15);
